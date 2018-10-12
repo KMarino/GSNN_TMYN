@@ -1,0 +1,95 @@
+person,man,woman,boy,girl,Man,guy,kid,a little girl,MAN,baby,Person,a tall young man,a silly old woman,a grumpy old man,Woman,gleeful woman,a happy people,a tiny girl,a serious woman,a dirty man,a smiling woman,a sad old man
+bicycle,bike
+car
+motorcycle
+airplane
+bus
+train
+truck
+boat
+traffic light
+fire hydrant
+stop sign
+parking meter
+bench
+bird,feathery bird,a fat bird
+cat,a fluffy cat
+dog,a playful dog,a fit dog
+horse
+sheep,a sheep
+cow,a large happy cow,a skinny cow
+elephant
+bear
+zebra
+giraffe
+backpack
+umbrella
+handbag,purse
+tie
+suitcase
+frisbee
+skis,ski
+snowboard
+sports ball,ball,a blue tennis ball,a tennis ball,baseball,tennis ball
+kite
+baseball bat,bat
+baseball glove,glove
+skateboard
+surfboard
+tennis racket,racket
+bottle
+wine glass
+cup
+fork
+knife
+spoon
+bowl
+banana
+apple
+sandwich
+orange
+broccoli
+carrot
+hot dog
+pizza
+donut,doughnut
+cake
+chair
+couch,sofa
+potted plant,flower pot
+bed
+dining table,table,a dinning table,a kitchen table
+toilet
+tv,television
+laptop
+mouse
+remote
+keyboard
+cell phone,cellphone,phone,a cell phone
+microwave
+oven
+toaster
+sink
+refrigerator,a small refrigerator,a refrigerator,fridge
+book,a exciting book,a book
+clock
+vase
+scissors
+teddy bear
+hair drier,hair dryer,hairdryer,dryer
+toothbrush
+rock,a rock
+field,a field
+tree,a old tree,a tree
+coat,a coat
+head,a mans head
+hair,a womans hair,a mans hair
+hand,someones hand
+sky,blue sky,the vast sky,the sky
+clouds,white clouds,whispy clouds,fat fluffy clouds
+people,a group of people,playful kids,kids,silly kids,women,men
+snow,the fresh snow,thesnow
+grass,the fresh cut grass,the grass
+building,all mighty building,Building,a building
+hat,a fancy hat,a fluffy hat
+window,Window

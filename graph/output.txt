@@ -1,0 +1,4580 @@
+Node: 1, Cat, in_vocab true, has_neil true, vocab_index 120, neil_ind 4
+Node: 2, Dog, in_vocab true, has_neil true, vocab_index 121, neil_ind 2
+Node: 3, Dog_Hat, in_vocab false, has_neil true, vocab_index -1, neil_ind 100
+Node: 4, Blah, in_vocab false, has_neil false, vocab_index -1, neil_ind -1
+Time: 0.00s	
+	
+EdgeType: 1, is_on
+EdgeType: 2, looks_like
+Edge: 1, Cat, Dog, 0.9, EdgeType: 2, looks_like
+Edge: 2, Dog_Hat, Dog, 0.8, EdgeType: 1, is_on
+Edge: 1, Cat, Dog, 0.9, EdgeType: 2, looks_like
+Edge: 2, Dog_Hat, Dog, 0.8, EdgeType: 1, is_on
+Time: 0.00s	
+	
+Graph: #nodes 0, #edges 0, #edgetypes 0
+  Nodes:
+  Edges:
+  EdgeTypes:
+  Neil Detector Nodes: {}
+  Vocab Nodes: {}
+Graph: #nodes 5, #edges 0, #edgetypes 0
+  Nodes:
+    Node: 1, Person, in_vocab true, has_neil true, vocab_index 33, neil_ind 4
+    Node: 2, Cat, in_vocab true, has_neil true, vocab_index 54, neil_ind 2
+    Node: 3, Dog, in_vocab true, has_neil true, vocab_index 20, neil_ind 100
+    Node: 4, Hospital, in_vocab true, has_neil false, vocab_index 43, neil_ind -1
+    Node: 5, Big_Dog, in_vocab false, has_neil false, vocab_index -1, neil_ind -1
+  Edges:
+  EdgeTypes:
+  Neil Detector Nodes: {1 2 3 }
+  Vocab Nodes: {1 2 3 4 }
+Graph: #nodes 5, #edges 3, #edgetypes 2
+  Nodes:
+    Node: 1, Person, in_vocab true, has_neil true, vocab_index 33, neil_ind 4
+    Node: 2, Cat, in_vocab true, has_neil true, vocab_index 54, neil_ind 2
+    Node: 3, Dog, in_vocab true, has_neil true, vocab_index 20, neil_ind 100
+    Node: 4, Hospital, in_vocab true, has_neil false, vocab_index 43, neil_ind -1
+    Node: 5, Big_Dog, in_vocab false, has_neil false, vocab_index -1, neil_ind -1
+  Edges:
+    Edge: 1, Cat, Dog, 0.9, EdgeType: 1, looks_like
+    Edge: 2, Big_Dog, Dog, 0.8, EdgeType: 2, is
+    Edge: 3, Person, Dog, 0.85, EdgeType: 1, looks_like
+  EdgeTypes:
+    EdgeType: 1, looks_like
+    EdgeType: 2, is
+  Neil Detector Nodes: {1 2 3 }
+  Vocab Nodes: {1 2 3 4 }
+{
+  1 : 
+    {
+      edgetype : 
+        {
+          name : "looks_like"
+          index : 1
+        }
+      start_node : 
+        {
+          incoming_edges : {...}
+          index : 1
+          vocab_index : 33
+          has_neil_detector : true
+          name : "Person"
+          in_vocab : true
+          neil_detector_index : 4
+          outgoing_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.85
+                  end_node : {...}
+                  index : 3
+                }
+            }
+        }
+      confidence : 0.85
+      end_node : 
+        {
+          incoming_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.9
+                  end_node : {...}
+                  index : 1
+                }
+              2 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.8
+                  end_node : {...}
+                  index : 2
+                }
+              3 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.85
+                  end_node : {...}
+                  index : 3
+                }
+            }
+          index : 3
+          vocab_index : 20
+          has_neil_detector : true
+          name : "Dog"
+          in_vocab : true
+          neil_detector_index : 100
+          outgoing_edges : {...}
+        }
+      index : 3
+    }
+}
+{}
+{
+  1 : 
+    {
+      edgetype : 
+        {
+          name : "looks_like"
+          index : 1
+        }
+      start_node : 
+        {
+          incoming_edges : {...}
+          index : 2
+          vocab_index : 54
+          has_neil_detector : true
+          name : "Cat"
+          in_vocab : true
+          neil_detector_index : 2
+          outgoing_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.9
+                  end_node : {...}
+                  index : 1
+                }
+            }
+        }
+      confidence : 0.9
+      end_node : 
+        {
+          incoming_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.9
+                  end_node : {...}
+                  index : 1
+                }
+              2 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.8
+                  end_node : {...}
+                  index : 2
+                }
+              3 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.85
+                  end_node : {...}
+                  index : 3
+                }
+            }
+          index : 3
+          vocab_index : 20
+          has_neil_detector : true
+          name : "Dog"
+          in_vocab : true
+          neil_detector_index : 100
+          outgoing_edges : {...}
+        }
+      index : 1
+    }
+}
+{}
+{}
+{
+  1 : 
+    {
+      edgetype : 
+        {
+          name : "looks_like"
+          index : 1
+        }
+      start_node : 
+        {
+          incoming_edges : {...}
+          index : 2
+          vocab_index : 54
+          has_neil_detector : true
+          name : "Cat"
+          in_vocab : true
+          neil_detector_index : 2
+          outgoing_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.9
+                  end_node : {...}
+                  index : 1
+                }
+            }
+        }
+      confidence : 0.9
+      end_node : 
+        {
+          incoming_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.9
+                  end_node : {...}
+                  index : 1
+                }
+              2 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.8
+                  end_node : {...}
+                  index : 2
+                }
+              3 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.85
+                  end_node : {...}
+                  index : 3
+                }
+            }
+          index : 3
+          vocab_index : 20
+          has_neil_detector : true
+          name : "Dog"
+          in_vocab : true
+          neil_detector_index : 100
+          outgoing_edges : {...}
+        }
+      index : 1
+    }
+  2 : 
+    {
+      edgetype : 
+        {
+          name : "is"
+          index : 2
+        }
+      start_node : 
+        {
+          incoming_edges : {...}
+          index : 5
+          vocab_index : -1
+          has_neil_detector : false
+          name : "Big_Dog"
+          in_vocab : false
+          neil_detector_index : -1
+          outgoing_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.8
+                  end_node : {...}
+                  index : 2
+                }
+            }
+        }
+      confidence : 0.8
+      end_node : 
+        {
+          incoming_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.9
+                  end_node : {...}
+                  index : 1
+                }
+              2 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.8
+                  end_node : {...}
+                  index : 2
+                }
+              3 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.85
+                  end_node : {...}
+                  index : 3
+                }
+            }
+          index : 3
+          vocab_index : 20
+          has_neil_detector : true
+          name : "Dog"
+          in_vocab : true
+          neil_detector_index : 100
+          outgoing_edges : {...}
+        }
+      index : 2
+    }
+  3 : 
+    {
+      edgetype : 
+        {
+          name : "looks_like"
+          index : 1
+        }
+      start_node : 
+        {
+          incoming_edges : {...}
+          index : 1
+          vocab_index : 33
+          has_neil_detector : true
+          name : "Person"
+          in_vocab : true
+          neil_detector_index : 4
+          outgoing_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.85
+                  end_node : {...}
+                  index : 3
+                }
+            }
+        }
+      confidence : 0.85
+      end_node : 
+        {
+          incoming_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.9
+                  end_node : {...}
+                  index : 1
+                }
+              2 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.8
+                  end_node : {...}
+                  index : 2
+                }
+              3 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.85
+                  end_node : {...}
+                  index : 3
+                }
+            }
+          index : 3
+          vocab_index : 20
+          has_neil_detector : true
+          name : "Dog"
+          in_vocab : true
+          neil_detector_index : 100
+          outgoing_edges : {...}
+        }
+      index : 3
+    }
+}
+{}
+{}
+{
+  1 : 
+    {
+      edgetype : 
+        {
+          name : "is"
+          index : 2
+        }
+      start_node : 
+        {
+          incoming_edges : {...}
+          index : 5
+          vocab_index : -1
+          has_neil_detector : false
+          name : "Big_Dog"
+          in_vocab : false
+          neil_detector_index : -1
+          outgoing_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.8
+                  end_node : {...}
+                  index : 2
+                }
+            }
+        }
+      confidence : 0.8
+      end_node : 
+        {
+          incoming_edges : 
+            {
+              1 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.9
+                  end_node : {...}
+                  index : 1
+                }
+              2 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.8
+                  end_node : {...}
+                  index : 2
+                }
+              3 : 
+                {
+                  edgetype : {...}
+                  start_node : {...}
+                  confidence : 0.85
+                  end_node : {...}
+                  index : 3
+                }
+            }
+          index : 3
+          vocab_index : 20
+          has_neil_detector : true
+          name : "Dog"
+          in_vocab : true
+          neil_detector_index : 100
+          outgoing_edges : {...}
+        }
+      index : 2
+    }
+}
+{}
+Time: 0.00s	
+	
+Graph: #nodes 17, #edges 19, #edgetypes 4
+  Nodes:
+    Node: 1, fern, in_vocab true, has_neil true, vocab_index 33, neil_ind 4
+    Node: 2, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 3, apple, in_vocab true, has_neil true, vocab_index 22, neil_ind 93
+    Node: 4, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 33
+    Node: 5, tomato, in_vocab true, has_neil true, vocab_index 41, neil_ind 11
+    Node: 6, clock, in_vocab true, has_neil true, vocab_index 3, neil_ind 49
+    Node: 7, wheel, in_vocab true, has_neil true, vocab_index 5, neil_ind 5
+    Node: 8, tire, in_vocab true, has_neil true, vocab_index 93, neil_ind 111
+    Node: 9, black, in_vocab true, has_neil true, vocab_index 8, neil_ind 54
+    Node: 10, car, in_vocab true, has_neil true, vocab_index 74, neil_ind 70
+    Node: 11, new_york, in_vocab false, has_neil true, vocab_index -1, neil_ind 23
+    Node: 12, statue_of_liberty, in_vocab false, has_neil true, vocab_index -1, neil_ind 80
+    Node: 13, raceway, in_vocab true, has_neil true, vocab_index 40, neil_ind 99
+    Node: 14, taxi, in_vocab true, has_neil true, vocab_index 65, neil_ind 20
+    Node: 15, car_dealership, in_vocab false, has_neil true, vocab_index -1, neil_ind 55
+    Node: 16, street, in_vocab true, has_neil true, vocab_index 35, neil_ind 81
+    Node: 17, snowy_weather, in_vocab false, has_neil true, vocab_index -1, neil_ind 100
+  Edges:
+    Edge: 1, fern, green, 0.9, EdgeType: 1, has
+    Edge: 2, apple, green, 0.8, EdgeType: 1, has
+    Edge: 3, tomato, apple, 0.7, EdgeType: 2, looks_like
+    Edge: 4, apple, tomato, 0.5, EdgeType: 2, looks_like
+    Edge: 5, apple, round_shape, 1, EdgeType: 1, has
+    Edge: 6, clock, round_shape, 0.89, EdgeType: 1, has
+    Edge: 7, wheel, round_shape, 0.8, EdgeType: 1, has
+    Edge: 8, tire, round_shape, 0.77, EdgeType: 1, has
+    Edge: 9, wheel, tire, 0.8, EdgeType: 2, looks_like
+    Edge: 10, tire, wheel, 0.98, EdgeType: 2, looks_like
+    Edge: 11, tire, black, 1, EdgeType: 1, has
+    Edge: 12, wheel, car, 0.9, EdgeType: 3, part_of
+    Edge: 13, car, new_york, 0.88, EdgeType: 4, found_in
+    Edge: 14, new_york, statue_of_liberty, 0.58, EdgeType: 1, has
+    Edge: 15, car, raceway, 0.78, EdgeType: 4, found_in
+    Edge: 16, taxi, raceway, 0.86, EdgeType: 4, found_in
+    Edge: 17, car, car_dealership, 0.78, EdgeType: 4, found_in
+    Edge: 18, car, street, 0.78, EdgeType: 4, found_in
+    Edge: 19, street, snowy_weather, 0.88, EdgeType: 1, has
+  EdgeTypes:
+    EdgeType: 1, has
+    EdgeType: 2, looks_like
+    EdgeType: 3, part_of
+    EdgeType: 4, found_in
+  Neil Detector Nodes: {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 }
+  Vocab Nodes: {1 2 3 5 6 7 8 9 10 13 14 16 }
+***	
+  4
+ -1
+  5
+  1
+ -1
+  6
+  7
+  8
+  2
+  3
+  9
+ -1
+ 10
+ -1
+ 11
+ 12
+ -1
+[torch.IntTensor of size 17]
+
+{
+  1 : 4
+  2 : 9
+  3 : 10
+  4 : 1
+  5 : 3
+  6 : 6
+  7 : 7
+  8 : 8
+  9 : 11
+  10 : 13
+  11 : 15
+  12 : 16
+}
+{
+  1 : 
+    {
+      1 : 5
+      2 : 1
+      3 : 1
+    }
+  2 : 
+    {
+      1 : 6
+      2 : 1
+      3 : 1
+    }
+  3 : 
+    {
+      1 : 7
+      2 : 1
+      3 : 1
+    }
+  4 : 
+    {
+      1 : 7
+      2 : 3
+      3 : 3
+    }
+  5 : 
+    {
+      1 : 8
+      2 : 1
+      3 : 1
+    }
+  6 : 
+    {
+      1 : 8
+      2 : 2
+      3 : 7
+    }
+  7 : 
+    {
+      1 : 8
+      2 : 1
+      3 : 2
+    }
+  8 : 
+    {
+      1 : 7
+      2 : 2
+      3 : 8
+    }
+  9 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 9
+    }
+  10 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 10
+    }
+  11 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 11
+    }
+  12 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 12
+    }
+}
+{
+  1 : 1
+  2 : 0.89
+  3 : 0.8
+  4 : 0.9
+  5 : 0.77
+  6 : 0.98
+  7 : 1
+  8 : 0.8
+  9 : 0.88
+  10 : 0.78
+  11 : 0.78
+  12 : 0.78
+}
+  4
+ 13
+  5
+  1
+ 14
+  6
+  7
+  8
+  2
+  3
+  9
+ -1
+ 10
+ 15
+ 11
+ 12
+ 16
+[torch.IntTensor of size 17]
+
+{
+  1 : 4
+  2 : 9
+  3 : 10
+  4 : 1
+  5 : 3
+  6 : 6
+  7 : 7
+  8 : 8
+  9 : 11
+  10 : 13
+  11 : 15
+  12 : 16
+  13 : 2
+  14 : 5
+  15 : 14
+  16 : 17
+}
+{
+  1 : 
+    {
+      1 : 5
+      2 : 1
+      3 : 1
+    }
+  2 : 
+    {
+      1 : 6
+      2 : 1
+      3 : 1
+    }
+  3 : 
+    {
+      1 : 7
+      2 : 1
+      3 : 1
+    }
+  4 : 
+    {
+      1 : 7
+      2 : 3
+      3 : 3
+    }
+  5 : 
+    {
+      1 : 8
+      2 : 1
+      3 : 1
+    }
+  6 : 
+    {
+      1 : 8
+      2 : 2
+      3 : 7
+    }
+  7 : 
+    {
+      1 : 8
+      2 : 1
+      3 : 2
+    }
+  8 : 
+    {
+      1 : 7
+      2 : 2
+      3 : 8
+    }
+  9 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 9
+    }
+  10 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 10
+    }
+  11 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 11
+    }
+  12 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 12
+    }
+  13 : 
+    {
+      1 : 4
+      2 : 1
+      3 : 13
+    }
+  14 : 
+    {
+      1 : 5
+      2 : 1
+      3 : 13
+    }
+  15 : 
+    {
+      1 : 14
+      2 : 2
+      3 : 5
+    }
+  16 : 
+    {
+      1 : 5
+      2 : 2
+      3 : 14
+    }
+  17 : 
+    {
+      1 : 15
+      2 : 4
+      3 : 10
+    }
+  18 : 
+    {
+      1 : 12
+      2 : 1
+      3 : 16
+    }
+}
+{
+  1 : 1
+  2 : 0.89
+  3 : 0.8
+  4 : 0.9
+  5 : 0.77
+  6 : 0.98
+  7 : 1
+  8 : 0.8
+  9 : 0.88
+  10 : 0.78
+  11 : 0.78
+  12 : 0.78
+  13 : 0.9
+  14 : 0.8
+  15 : 0.7
+  16 : 0.5
+  17 : 0.86
+  18 : 0.88
+}
+Time: 0.00s	
+	
+Graph: #nodes 17, #edges 19, #edgetypes 4
+  Nodes:
+    Node: 1, fern, in_vocab true, has_neil true, vocab_index 33, neil_ind 4
+    Node: 2, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 3, apple, in_vocab true, has_neil true, vocab_index 22, neil_ind 93
+    Node: 4, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 33
+    Node: 5, tomato, in_vocab true, has_neil true, vocab_index 41, neil_ind 11
+    Node: 6, clock, in_vocab true, has_neil true, vocab_index 3, neil_ind 49
+    Node: 7, wheel, in_vocab true, has_neil true, vocab_index 5, neil_ind 5
+    Node: 8, tire, in_vocab true, has_neil true, vocab_index 93, neil_ind 111
+    Node: 9, black, in_vocab true, has_neil true, vocab_index 8, neil_ind 54
+    Node: 10, car, in_vocab true, has_neil true, vocab_index 74, neil_ind 70
+    Node: 11, new_york, in_vocab false, has_neil true, vocab_index -1, neil_ind 23
+    Node: 12, statue_of_liberty, in_vocab false, has_neil true, vocab_index -1, neil_ind 80
+    Node: 13, raceway, in_vocab true, has_neil true, vocab_index 40, neil_ind 99
+    Node: 14, taxi, in_vocab true, has_neil true, vocab_index 65, neil_ind 20
+    Node: 15, car_dealership, in_vocab false, has_neil true, vocab_index -1, neil_ind 55
+    Node: 16, street, in_vocab true, has_neil true, vocab_index 35, neil_ind 81
+    Node: 17, snowy_weather, in_vocab false, has_neil true, vocab_index -1, neil_ind 100
+  Edges:
+    Edge: 1, fern, green, 0.9, EdgeType: 1, has
+    Edge: 2, apple, green, 0.8, EdgeType: 1, has
+    Edge: 3, tomato, apple, 0.7, EdgeType: 2, looks_like
+    Edge: 4, apple, tomato, 0.5, EdgeType: 2, looks_like
+    Edge: 5, apple, round_shape, 1, EdgeType: 1, has
+    Edge: 6, clock, round_shape, 0.89, EdgeType: 1, has
+    Edge: 7, wheel, round_shape, 0.8, EdgeType: 1, has
+    Edge: 8, tire, round_shape, 0.77, EdgeType: 1, has
+    Edge: 9, wheel, tire, 0.8, EdgeType: 2, looks_like
+    Edge: 10, tire, wheel, 0.98, EdgeType: 2, looks_like
+    Edge: 11, tire, black, 1, EdgeType: 1, has
+    Edge: 12, wheel, car, 0.9, EdgeType: 3, part_of
+    Edge: 13, car, new_york, 0.88, EdgeType: 4, found_in
+    Edge: 14, new_york, statue_of_liberty, 0.58, EdgeType: 1, has
+    Edge: 15, car, raceway, 0.78, EdgeType: 4, found_in
+    Edge: 16, taxi, raceway, 0.86, EdgeType: 4, found_in
+    Edge: 17, car, car_dealership, 0.78, EdgeType: 4, found_in
+    Edge: 18, car, street, 0.78, EdgeType: 4, found_in
+    Edge: 19, street, snowy_weather, 0.88, EdgeType: 1, has
+  EdgeTypes:
+    EdgeType: 1, has
+    EdgeType: 2, looks_like
+    EdgeType: 3, part_of
+    EdgeType: 4, found_in
+  Neil Detector Nodes: {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 }
+  Vocab Nodes: {1 2 3 5 6 7 8 9 10 13 14 16 }
+XXX	
+  4
+ -1
+  5
+  1
+ -1
+  6
+  7
+  8
+  2
+  3
+  9
+ -1
+ 10
+ -1
+ 11
+ 12
+ -1
+[torch.IntTensor of size 17]
+
+{
+  1 : 4
+  2 : 9
+  3 : 10
+  4 : 1
+  5 : 3
+  6 : 6
+  7 : 7
+  8 : 8
+  9 : 11
+  10 : 13
+  11 : 15
+  12 : 16
+}
+{
+  1 : 
+    {
+      id : 5
+      edge : 
+        {
+          1 : 5
+          2 : 1
+          3 : 1
+        }
+    }
+  2 : 
+    {
+      id : 6
+      edge : 
+        {
+          1 : 6
+          2 : 1
+          3 : 1
+        }
+    }
+  3 : 
+    {
+      id : 7
+      edge : 
+        {
+          1 : 7
+          2 : 1
+          3 : 1
+        }
+    }
+  4 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 7
+          2 : 3
+          3 : 3
+        }
+    }
+  5 : 
+    {
+      id : 8
+      edge : 
+        {
+          1 : 8
+          2 : 1
+          3 : 1
+        }
+    }
+  6 : 
+    {
+      id : 10
+      edge : 
+        {
+          1 : 8
+          2 : 2
+          3 : 7
+        }
+    }
+  7 : 
+    {
+      id : 11
+      edge : 
+        {
+          1 : 8
+          2 : 1
+          3 : 2
+        }
+    }
+  8 : 
+    {
+      id : 9
+      edge : 
+        {
+          1 : 7
+          2 : 2
+          3 : 8
+        }
+    }
+  9 : 
+    {
+      id : 13
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 9
+        }
+    }
+  10 : 
+    {
+      id : 15
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 10
+        }
+    }
+  11 : 
+    {
+      id : 17
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 11
+        }
+    }
+  12 : 
+    {
+      id : 18
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 12
+        }
+    }
+}
+{
+  2 : 
+    {
+      id : 2
+      edge : 
+        {
+          1 : 5
+          2 : 1
+          3 : -1
+        }
+    }
+  3 : 
+    {
+      id : 3
+      edge : 
+        {
+          1 : -1
+          2 : 2
+          3 : 5
+        }
+    }
+  4 : 
+    {
+      id : 4
+      edge : 
+        {
+          1 : 5
+          2 : 2
+          3 : -1
+        }
+    }
+  9 : 
+    {
+      id : 9
+      edge : 
+        {
+          1 : 7
+          2 : 2
+          3 : -1
+        }
+    }
+  14 : 
+    {
+      id : 14
+      edge : 
+        {
+          1 : 9
+          2 : 1
+          3 : -1
+        }
+    }
+  16 : 
+    {
+      id : 16
+      edge : 
+        {
+          1 : -1
+          2 : 4
+          3 : 10
+        }
+    }
+  19 : 
+    {
+      id : 19
+      edge : 
+        {
+          1 : 12
+          2 : 1
+          3 : -1
+        }
+    }
+}
+  4
+ 13
+  5
+  1
+ 14
+  6
+  7
+  8
+  2
+  3
+  9
+ -1
+ 10
+ 15
+ 11
+ 12
+ 16
+[torch.IntTensor of size 17]
+
+{
+  1 : 4
+  2 : 9
+  3 : 10
+  4 : 1
+  5 : 3
+  6 : 6
+  7 : 7
+  8 : 8
+  9 : 11
+  10 : 13
+  11 : 15
+  12 : 16
+  13 : 2
+  14 : 5
+  15 : 14
+  16 : 17
+}
+{
+  1 : 
+    {
+      id : 5
+      edge : 
+        {
+          1 : 5
+          2 : 1
+          3 : 1
+        }
+    }
+  2 : 
+    {
+      id : 6
+      edge : 
+        {
+          1 : 6
+          2 : 1
+          3 : 1
+        }
+    }
+  3 : 
+    {
+      id : 7
+      edge : 
+        {
+          1 : 7
+          2 : 1
+          3 : 1
+        }
+    }
+  4 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 7
+          2 : 3
+          3 : 3
+        }
+    }
+  5 : 
+    {
+      id : 8
+      edge : 
+        {
+          1 : 8
+          2 : 1
+          3 : 1
+        }
+    }
+  6 : 
+    {
+      id : 10
+      edge : 
+        {
+          1 : 8
+          2 : 2
+          3 : 7
+        }
+    }
+  7 : 
+    {
+      id : 11
+      edge : 
+        {
+          1 : 8
+          2 : 1
+          3 : 2
+        }
+    }
+  8 : 
+    {
+      id : 9
+      edge : 
+        {
+          1 : 7
+          2 : 2
+          3 : 8
+        }
+    }
+  9 : 
+    {
+      id : 13
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 9
+        }
+    }
+  10 : 
+    {
+      id : 15
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 10
+        }
+    }
+  11 : 
+    {
+      id : 17
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 11
+        }
+    }
+  12 : 
+    {
+      id : 18
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 12
+        }
+    }
+  13 : 
+    {
+      id : 1
+      edge : 
+        {
+          1 : 4
+          2 : 1
+          3 : 13
+        }
+    }
+  14 : 
+    {
+      id : 2
+      edge : 
+        {
+          1 : 5
+          2 : 1
+          3 : 13
+        }
+    }
+  15 : 
+    {
+      id : 3
+      edge : 
+        {
+          1 : 14
+          2 : 2
+          3 : 5
+        }
+    }
+  16 : 
+    {
+      id : 4
+      edge : 
+        {
+          1 : 5
+          2 : 2
+          3 : 14
+        }
+    }
+  17 : 
+    {
+      id : 16
+      edge : 
+        {
+          1 : 15
+          2 : 4
+          3 : 10
+        }
+    }
+  18 : 
+    {
+      id : 19
+      edge : 
+        {
+          1 : 12
+          2 : 1
+          3 : 16
+        }
+    }
+}
+{
+  9 : 
+    {
+      id : 9
+      edge : 
+        {
+          1 : 7
+          2 : 2
+          3 : -1
+        }
+    }
+  14 : 
+    {
+      id : 14
+      edge : 
+        {
+          1 : 9
+          2 : 1
+          3 : -1
+        }
+    }
+}
+Time: 0.00s	
+	
+Graph: #nodes 17, #edges 19, #edgetypes 4
+  Nodes:
+    Node: 1, fern, in_vocab true, has_neil true, vocab_index 33, neil_ind 4
+    Node: 2, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 3, apple, in_vocab true, has_neil true, vocab_index 22, neil_ind 93
+    Node: 4, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 33
+    Node: 5, tomato, in_vocab true, has_neil true, vocab_index 41, neil_ind 11
+    Node: 6, clock, in_vocab true, has_neil true, vocab_index 3, neil_ind 49
+    Node: 7, wheel, in_vocab true, has_neil true, vocab_index 5, neil_ind 5
+    Node: 8, tire, in_vocab true, has_neil true, vocab_index 93, neil_ind 111
+    Node: 9, black, in_vocab true, has_neil true, vocab_index 8, neil_ind 54
+    Node: 10, car, in_vocab true, has_neil true, vocab_index 74, neil_ind 70
+    Node: 11, new_york, in_vocab false, has_neil true, vocab_index -1, neil_ind 23
+    Node: 12, statue_of_liberty, in_vocab false, has_neil true, vocab_index -1, neil_ind 80
+    Node: 13, raceway, in_vocab true, has_neil true, vocab_index 40, neil_ind 99
+    Node: 14, taxi, in_vocab true, has_neil true, vocab_index 65, neil_ind 20
+    Node: 15, car_dealership, in_vocab false, has_neil true, vocab_index -1, neil_ind 55
+    Node: 16, street, in_vocab true, has_neil true, vocab_index 35, neil_ind 81
+    Node: 17, snowy_weather, in_vocab false, has_neil true, vocab_index -1, neil_ind 100
+  Edges:
+    Edge: 1, fern, green, 0.9, EdgeType: 1, has
+    Edge: 2, apple, green, 0.8, EdgeType: 1, has
+    Edge: 3, tomato, apple, 0.7, EdgeType: 2, looks_like
+    Edge: 4, apple, tomato, 0.5, EdgeType: 2, looks_like
+    Edge: 5, apple, round_shape, 1, EdgeType: 1, has
+    Edge: 6, clock, round_shape, 0.89, EdgeType: 1, has
+    Edge: 7, wheel, round_shape, 0.8, EdgeType: 1, has
+    Edge: 8, tire, round_shape, 0.77, EdgeType: 1, has
+    Edge: 9, wheel, tire, 0.8, EdgeType: 2, looks_like
+    Edge: 10, tire, wheel, 0.98, EdgeType: 2, looks_like
+    Edge: 11, tire, black, 1, EdgeType: 1, has
+    Edge: 12, wheel, car, 0.9, EdgeType: 3, part_of
+    Edge: 13, car, new_york, 0.88, EdgeType: 4, found_in
+    Edge: 14, new_york, statue_of_liberty, 0.58, EdgeType: 1, has
+    Edge: 15, car, raceway, 0.78, EdgeType: 4, found_in
+    Edge: 16, taxi, raceway, 0.86, EdgeType: 4, found_in
+    Edge: 17, car, car_dealership, 0.78, EdgeType: 4, found_in
+    Edge: 18, car, street, 0.78, EdgeType: 4, found_in
+    Edge: 19, street, snowy_weather, 0.88, EdgeType: 1, has
+  EdgeTypes:
+    EdgeType: 1, has
+    EdgeType: 2, looks_like
+    EdgeType: 3, part_of
+    EdgeType: 4, found_in
+  Neil Detector Nodes: {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 }
+  Vocab Nodes: {1 2 3 5 6 7 8 9 10 13 14 16 }
+11111	
+{
+  1 : 
+    {
+      1 : 0.98000001907349
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  2 : 
+    {
+      1 : 0.80000001192093
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  3 : 
+    {
+      1 : 0.89999997615814
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  4 : 
+    {
+      1 : 0.93000000715256
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  5 : 
+    {
+      1 : 0.89999997615814
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  6 : 
+    {
+      1 : 0.81000000238419
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+}
+ -1
+ 12
+  5
+  2
+ 13
+  9
+ 10
+ 11
+  3
+  8
+  1
+  7
+ -1
+ -1
+ -1
+  4
+  6
+[torch.LongTensor of size 17]
+
+{
+  1 : 11
+  2 : 4
+  3 : 9
+  4 : 16
+  5 : 3
+  6 : 17
+  7 : 12
+  8 : 10
+  9 : 6
+  10 : 7
+  11 : 8
+  12 : 2
+  13 : 5
+}
+{
+  1 : 11
+  2 : 4
+  3 : 9
+  4 : 16
+  5 : 3
+  6 : 17
+}
+{
+  1 : 
+    {
+      1 : 4
+      2 : 1
+      3 : 6
+    }
+  2 : 
+    {
+      1 : 5
+      2 : 1
+      3 : 2
+    }
+  3 : 
+    {
+      1 : 1
+      2 : 1
+      3 : 7
+    }
+  4 : 
+    {
+      1 : 8
+      2 : 4
+      3 : 1
+    }
+  5 : 
+    {
+      1 : 8
+      2 : 4
+      3 : 4
+    }
+  6 : 
+    {
+      1 : 9
+      2 : 1
+      3 : 2
+    }
+  7 : 
+    {
+      1 : 10
+      2 : 1
+      3 : 2
+    }
+  8 : 
+    {
+      1 : 10
+      2 : 3
+      3 : 8
+    }
+  9 : 
+    {
+      1 : 11
+      2 : 1
+      3 : 2
+    }
+  10 : 
+    {
+      1 : 11
+      2 : 2
+      3 : 10
+    }
+  11 : 
+    {
+      1 : 11
+      2 : 1
+      3 : 3
+    }
+  12 : 
+    {
+      1 : 10
+      2 : 2
+      3 : 11
+    }
+  13 : 
+    {
+      1 : 5
+      2 : 1
+      3 : 12
+    }
+  14 : 
+    {
+      1 : 13
+      2 : 2
+      3 : 5
+    }
+  15 : 
+    {
+      1 : 5
+      2 : 2
+      3 : 13
+    }
+}
+{
+  1 : 0.88
+  2 : 1
+  3 : 0.58
+  4 : 0.88
+  5 : 0.78
+  6 : 0.89
+  7 : 0.8
+  8 : 0.9
+  9 : 0.77
+  10 : 0.98
+  11 : 1
+  12 : 0.8
+  13 : 0.8
+  14 : 0.7
+  15 : 0.5
+}
+{
+  1 : 
+    {
+      1 : 0.99000000953674
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  2 : 
+    {
+      1 : 0.81999999284744
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  3 : 
+    {
+      1 : 0.40000000596046
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+}
+-1
+-1
+ 5
+ 3
+-1
+ 1
+ 6
+ 7
+-1
+-1
+-1
+-1
+ 4
+ 2
+-1
+-1
+-1
+[torch.LongTensor of size 17]
+
+{
+  1 : 6
+  2 : 14
+  3 : 4
+  4 : 13
+  5 : 3
+  6 : 7
+  7 : 8
+}
+{
+  1 : 6
+  2 : 14
+  3 : 4
+}
+{
+  1 : 
+    {
+      1 : 1
+      2 : 1
+      3 : 3
+    }
+  2 : 
+    {
+      1 : 2
+      2 : 4
+      3 : 4
+    }
+  3 : 
+    {
+      1 : 5
+      2 : 1
+      3 : 3
+    }
+  4 : 
+    {
+      1 : 6
+      2 : 1
+      3 : 3
+    }
+  5 : 
+    {
+      1 : 7
+      2 : 1
+      3 : 3
+    }
+  6 : 
+    {
+      1 : 7
+      2 : 2
+      3 : 6
+    }
+  7 : 
+    {
+      1 : 6
+      2 : 2
+      3 : 7
+    }
+}
+{
+  1 : 0.89
+  2 : 0.86
+  3 : 1
+  4 : 0.8
+  5 : 0.77
+  6 : 0.98
+  7 : 0.8
+}
+Time: 0.00s	
+	
+Graph: #nodes 17, #edges 19, #edgetypes 4
+  Nodes:
+    Node: 1, fern, in_vocab true, has_neil true, vocab_index 33, neil_ind 4
+    Node: 2, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 3, apple, in_vocab true, has_neil true, vocab_index 22, neil_ind 93
+    Node: 4, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 33
+    Node: 5, tomato, in_vocab true, has_neil true, vocab_index 41, neil_ind 11
+    Node: 6, clock, in_vocab true, has_neil true, vocab_index 3, neil_ind 49
+    Node: 7, wheel, in_vocab true, has_neil true, vocab_index 5, neil_ind 5
+    Node: 8, tire, in_vocab true, has_neil true, vocab_index 93, neil_ind 111
+    Node: 9, black, in_vocab true, has_neil true, vocab_index 8, neil_ind 54
+    Node: 10, car, in_vocab true, has_neil true, vocab_index 74, neil_ind 70
+    Node: 11, new_york, in_vocab false, has_neil true, vocab_index -1, neil_ind 23
+    Node: 12, statue_of_liberty, in_vocab false, has_neil true, vocab_index -1, neil_ind 80
+    Node: 13, raceway, in_vocab true, has_neil true, vocab_index 40, neil_ind 99
+    Node: 14, taxi, in_vocab true, has_neil true, vocab_index 65, neil_ind 20
+    Node: 15, car_dealership, in_vocab false, has_neil true, vocab_index -1, neil_ind 55
+    Node: 16, street, in_vocab true, has_neil true, vocab_index 35, neil_ind 81
+    Node: 17, snowy_weather, in_vocab false, has_neil true, vocab_index -1, neil_ind 100
+  Edges:
+    Edge: 1, fern, green, 0.9, EdgeType: 1, has
+    Edge: 2, apple, green, 0.8, EdgeType: 1, has
+    Edge: 3, tomato, apple, 0.7, EdgeType: 2, looks_like
+    Edge: 4, apple, tomato, 0.5, EdgeType: 2, looks_like
+    Edge: 5, apple, round_shape, 1, EdgeType: 1, has
+    Edge: 6, clock, round_shape, 0.89, EdgeType: 1, has
+    Edge: 7, wheel, round_shape, 0.8, EdgeType: 1, has
+    Edge: 8, tire, round_shape, 0.77, EdgeType: 1, has
+    Edge: 9, wheel, tire, 0.8, EdgeType: 2, looks_like
+    Edge: 10, tire, wheel, 0.98, EdgeType: 2, looks_like
+    Edge: 11, tire, black, 1, EdgeType: 1, has
+    Edge: 12, wheel, car, 0.9, EdgeType: 3, part_of
+    Edge: 13, car, new_york, 0.88, EdgeType: 4, found_in
+    Edge: 14, new_york, statue_of_liberty, 0.58, EdgeType: 1, has
+    Edge: 15, car, raceway, 0.78, EdgeType: 4, found_in
+    Edge: 16, taxi, raceway, 0.86, EdgeType: 4, found_in
+    Edge: 17, car, car_dealership, 0.78, EdgeType: 4, found_in
+    Edge: 18, car, street, 0.78, EdgeType: 4, found_in
+    Edge: 19, street, snowy_weather, 0.88, EdgeType: 1, has
+  EdgeTypes:
+    EdgeType: 1, has
+    EdgeType: 2, looks_like
+    EdgeType: 3, part_of
+    EdgeType: 4, found_in
+  Neil Detector Nodes: {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 }
+  Vocab Nodes: {1 2 3 5 6 7 8 9 10 13 14 16 }
+22222	
+{
+  1 : 
+    {
+      1 : 0.98000001907349
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  2 : 
+    {
+      1 : 0.80000001192093
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  3 : 
+    {
+      1 : 0.89999997615814
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  4 : 
+    {
+      1 : 0.93000000715256
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  5 : 
+    {
+      1 : 0.89999997615814
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  6 : 
+    {
+      1 : 0.81000000238419
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+}
+ -1
+ 12
+  5
+  2
+ 13
+  9
+ 10
+ 11
+  3
+  8
+  1
+  7
+ -1
+ -1
+ -1
+  4
+  6
+[torch.LongTensor of size 17]
+
+{
+  1 : 11
+  2 : 4
+  3 : 9
+  4 : 16
+  5 : 3
+  6 : 17
+  7 : 12
+  8 : 10
+  9 : 6
+  10 : 7
+  11 : 8
+  12 : 2
+  13 : 5
+}
+{
+  1 : 11
+  2 : 4
+  3 : 9
+  4 : 16
+  5 : 3
+  6 : 17
+}
+{
+  1 : 
+    {
+      edge : 
+        {
+          1 : 4
+          2 : 1
+          3 : 6
+        }
+      id : 19
+    }
+  2 : 
+    {
+      edge : 
+        {
+          1 : 5
+          2 : 1
+          3 : 2
+        }
+      id : 5
+    }
+  3 : 
+    {
+      id : 14
+      edge : 
+        {
+          1 : 1
+          2 : 1
+          3 : 7
+        }
+    }
+  4 : 
+    {
+      id : 13
+      edge : 
+        {
+          1 : 8
+          2 : 4
+          3 : 1
+        }
+    }
+  5 : 
+    {
+      id : 18
+      edge : 
+        {
+          1 : 8
+          2 : 4
+          3 : 4
+        }
+    }
+  6 : 
+    {
+      id : 6
+      edge : 
+        {
+          1 : 9
+          2 : 1
+          3 : 2
+        }
+    }
+  7 : 
+    {
+      id : 7
+      edge : 
+        {
+          1 : 10
+          2 : 1
+          3 : 2
+        }
+    }
+  8 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 10
+          2 : 3
+          3 : 8
+        }
+    }
+  9 : 
+    {
+      id : 8
+      edge : 
+        {
+          1 : 11
+          2 : 1
+          3 : 2
+        }
+    }
+  10 : 
+    {
+      id : 10
+      edge : 
+        {
+          1 : 11
+          2 : 2
+          3 : 10
+        }
+    }
+  11 : 
+    {
+      id : 11
+      edge : 
+        {
+          1 : 11
+          2 : 1
+          3 : 3
+        }
+    }
+  12 : 
+    {
+      id : 9
+      edge : 
+        {
+          1 : 10
+          2 : 2
+          3 : 11
+        }
+    }
+  13 : 
+    {
+      id : 2
+      edge : 
+        {
+          1 : 5
+          2 : 1
+          3 : 12
+        }
+    }
+  14 : 
+    {
+      id : 3
+      edge : 
+        {
+          1 : 13
+          2 : 2
+          3 : 5
+        }
+    }
+  15 : 
+    {
+      id : 4
+      edge : 
+        {
+          1 : 5
+          2 : 2
+          3 : 13
+        }
+    }
+}
+{
+  1 : 
+    {
+      id : 1
+      edge : 
+        {
+          1 : -1
+          2 : 1
+          3 : 12
+        }
+    }
+  9 : 
+    {
+      id : 9
+      edge : 
+        {
+          1 : 10
+          2 : 2
+          3 : -1
+        }
+    }
+  15 : 
+    {
+      id : 15
+      edge : 
+        {
+          1 : 8
+          2 : 4
+          3 : -1
+        }
+    }
+  17 : 
+    {
+      id : 17
+      edge : 
+        {
+          1 : 8
+          2 : 4
+          3 : -1
+        }
+    }
+}
+{
+  1 : 
+    {
+      1 : 0.99000000953674
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  2 : 
+    {
+      1 : 0.81999999284744
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  3 : 
+    {
+      1 : 0.40000000596046
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+}
+-1
+-1
+ 5
+ 3
+-1
+ 1
+ 6
+ 7
+-1
+-1
+-1
+-1
+ 4
+ 2
+-1
+-1
+-1
+[torch.LongTensor of size 17]
+
+{
+  1 : 6
+  2 : 14
+  3 : 4
+  4 : 13
+  5 : 3
+  6 : 7
+  7 : 8
+}
+{
+  1 : 6
+  2 : 14
+  3 : 4
+}
+{
+  1 : 
+    {
+      edge : 
+        {
+          1 : 1
+          2 : 1
+          3 : 3
+        }
+      id : 6
+    }
+  2 : 
+    {
+      id : 16
+      edge : 
+        {
+          1 : 2
+          2 : 4
+          3 : 4
+        }
+    }
+  3 : 
+    {
+      id : 5
+      edge : 
+        {
+          1 : 5
+          2 : 1
+          3 : 3
+        }
+    }
+  4 : 
+    {
+      id : 7
+      edge : 
+        {
+          1 : 6
+          2 : 1
+          3 : 3
+        }
+    }
+  5 : 
+    {
+      id : 8
+      edge : 
+        {
+          1 : 7
+          2 : 1
+          3 : 3
+        }
+    }
+  6 : 
+    {
+      id : 10
+      edge : 
+        {
+          1 : 7
+          2 : 2
+          3 : 6
+        }
+    }
+  7 : 
+    {
+      id : 9
+      edge : 
+        {
+          1 : 6
+          2 : 2
+          3 : 7
+        }
+    }
+}
+{
+  2 : 
+    {
+      id : 2
+      edge : 
+        {
+          1 : 5
+          2 : 1
+          3 : -1
+        }
+    }
+  3 : 
+    {
+      id : 3
+      edge : 
+        {
+          1 : -1
+          2 : 2
+          3 : 5
+        }
+    }
+  4 : 
+    {
+      id : 4
+      edge : 
+        {
+          1 : 5
+          2 : 2
+          3 : -1
+        }
+    }
+  9 : 
+    {
+      id : 9
+      edge : 
+        {
+          1 : 6
+          2 : 2
+          3 : -1
+        }
+    }
+  11 : 
+    {
+      id : 11
+      edge : 
+        {
+          1 : 7
+          2 : 1
+          3 : -1
+        }
+    }
+  12 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 6
+          2 : 3
+          3 : -1
+        }
+    }
+  15 : 
+    {
+      id : 15
+      edge : 
+        {
+          1 : -1
+          2 : 4
+          3 : 4
+        }
+    }
+}
+Time: 0.00s	
+	
+Graph: #nodes 17, #edges 22, #edgetypes 5
+  Nodes:
+    Node: 1, fish, in_vocab true, has_neil true, vocab_index 42, neil_ind 13
+    Node: 2, shark, in_vocab true, has_neil true, vocab_index 39, neil_ind 80
+    Node: 3, aquarium, in_vocab true, has_neil true, vocab_index 22, neil_ind 74
+    Node: 4, blue, in_vocab true, has_neil true, vocab_index 83, neil_ind 32
+    Node: 5, water, in_vocab true, has_neil true, vocab_index 65, neil_ind 2
+    Node: 6, beverage, in_vocab true, has_neil false, vocab_index 11, neil_ind -1
+    Node: 7, milk, in_vocab true, has_neil true, vocab_index 40, neil_ind 10
+    Node: 8, food, in_vocab true, has_neil false, vocab_index 59, neil_ind -1
+    Node: 9, plate, in_vocab true, has_neil true, vocab_index 38, neil_ind 24
+    Node: 10, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 9
+    Node: 11, apple, in_vocab true, has_neil true, vocab_index 21, neil_ind 93
+    Node: 12, orange, in_vocab true, has_neil true, vocab_index 72, neil_ind 44
+    Node: 13, fruit, in_vocab true, has_neil false, vocab_index 91, neil_ind -1
+    Node: 14, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 15, grass, in_vocab true, has_neil true, vocab_index 2, neil_ind 8
+    Node: 16, lawn, in_vocab true, has_neil true, vocab_index 49, neil_ind 18
+    Node: 17, house, in_vocab true, has_neil true, vocab_index 100, neil_ind 1
+  Edges:
+    Edge: 1, fish, shark, 0.9, EdgeType: 1, looks_like
+    Edge: 2, shark, fish, 0.8, EdgeType: 1, looks_like
+    Edge: 3, fish, aquarium, 0.87, EdgeType: 2, found_in
+    Edge: 4, shark, aquarium, 0.92, EdgeType: 2, found_in
+    Edge: 5, aquarium, blue, 0.7, EdgeType: 3, has
+    Edge: 6, water, aquarium, 0.67, EdgeType: 4, part_of
+    Edge: 7, water, blue, 0.54, EdgeType: 3, has
+    Edge: 8, water, beverage, 0.68, EdgeType: 5, is
+    Edge: 9, milk, beverage, 0.88, EdgeType: 5, is
+    Edge: 10, beverage, food, 0.83, EdgeType: 5, is
+    Edge: 11, food, plate, 0.99, EdgeType: 2, found_in
+    Edge: 12, apple, food, 1, EdgeType: 5, is
+    Edge: 13, fruit, food, 0.44, EdgeType: 5, is
+    Edge: 14, orange, food, 0.73, EdgeType: 5, is
+    Edge: 15, plate, round_shape, 0.93, EdgeType: 3, has
+    Edge: 16, apple, round_shape, 0.54, EdgeType: 3, has
+    Edge: 17, apple, fruit, 0.76, EdgeType: 5, is
+    Edge: 18, apple, green, 0.36, EdgeType: 3, has
+    Edge: 19, orange, fruit, 0.9, EdgeType: 5, is
+    Edge: 20, grass, green, 0.8, EdgeType: 3, has
+    Edge: 21, grass, lawn, 0.7, EdgeType: 4, part_of
+    Edge: 22, house, lawn, 0.9, EdgeType: 4, part_of
+  EdgeTypes:
+    EdgeType: 1, looks_like
+    EdgeType: 2, found_in
+    EdgeType: 3, has
+    EdgeType: 4, part_of
+    EdgeType: 5, is
+  Neil Detector Nodes: {1 2 3 4 5 7 9 10 11 12 14 15 16 17 }
+  Vocab Nodes: {1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 }
+33333	
+{
+  1 : 
+    {
+      1 : 0.89999997615814
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  2 : 
+    {
+      1 : 0.81000000238419
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  3 : 
+    {
+      1 : 0.75
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+}
+ 1
+ 4
+ 5
+-1
+-1
+-1
+-1
+-1
+ 6
+ 2
+ 7
+-1
+-1
+ 8
+ 3
+ 9
+-1
+[torch.LongTensor of size 17]
+
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 3
+  6 : 9
+  7 : 11
+  8 : 14
+  9 : 16
+}
+{
+  1 : 1
+  2 : 10
+  3 : 15
+}
+{
+  1 : 
+    {
+      1 : 4
+      2 : 1
+      3 : 1
+    }
+  2 : 
+    {
+      1 : 1
+      2 : 1
+      3 : 4
+    }
+  3 : 
+    {
+      1 : 1
+      2 : 2
+      3 : 5
+    }
+  4 : 
+    {
+      1 : 4
+      2 : 2
+      3 : 5
+    }
+  5 : 
+    {
+      1 : 6
+      2 : 3
+      3 : 2
+    }
+  6 : 
+    {
+      1 : 7
+      2 : 3
+      3 : 2
+    }
+  7 : 
+    {
+      1 : 7
+      2 : 3
+      3 : 8
+    }
+  8 : 
+    {
+      1 : 3
+      2 : 3
+      3 : 8
+    }
+  9 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 9
+    }
+}
+{
+  1 : 0.8
+  2 : 0.9
+  3 : 0.87
+  4 : 0.92
+  5 : 0.93
+  6 : 0.54
+  7 : 0.36
+  8 : 0.8
+  9 : 0.7
+}
+  1
+  4
+  5
+ 11
+ 12
+ -1
+ -1
+ 10
+  6
+  2
+  7
+ -1
+ -1
+  8
+  3
+  9
+ -1
+[torch.LongTensor of size 17]
+
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 3
+  6 : 9
+  7 : 11
+  8 : 14
+  9 : 16
+  10 : 8
+  11 : 4
+  12 : 5
+}
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 9
+  6 : 3
+}
+{
+  1 : 
+    {
+      1 : 4
+      2 : 1
+      3 : 1
+    }
+  2 : 
+    {
+      1 : 1
+      2 : 1
+      3 : 4
+    }
+  3 : 
+    {
+      1 : 1
+      2 : 2
+      3 : 5
+    }
+  4 : 
+    {
+      1 : 4
+      2 : 2
+      3 : 5
+    }
+  5 : 
+    {
+      1 : 6
+      2 : 3
+      3 : 2
+    }
+  6 : 
+    {
+      1 : 7
+      2 : 3
+      3 : 2
+    }
+  7 : 
+    {
+      1 : 7
+      2 : 3
+      3 : 8
+    }
+  8 : 
+    {
+      1 : 3
+      2 : 3
+      3 : 8
+    }
+  9 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 9
+    }
+  10 : 
+    {
+      1 : 10
+      2 : 2
+      3 : 6
+    }
+  11 : 
+    {
+      1 : 7
+      2 : 5
+      3 : 10
+    }
+  12 : 
+    {
+      1 : 5
+      2 : 3
+      3 : 11
+    }
+  13 : 
+    {
+      1 : 12
+      2 : 4
+      3 : 5
+    }
+  14 : 
+    {
+      1 : 12
+      2 : 3
+      3 : 11
+    }
+}
+{
+  1 : 0.8
+  2 : 0.9
+  3 : 0.87
+  4 : 0.92
+  5 : 0.93
+  6 : 0.54
+  7 : 0.36
+  8 : 0.8
+  9 : 0.7
+  10 : 0.99
+  11 : 1
+  12 : 0.7
+  13 : 0.67
+  14 : 0.54
+}
+  1
+  4
+  5
+ 11
+ 12
+ 15
+ -1
+ 10
+  6
+  2
+  7
+ 16
+ 14
+  8
+  3
+  9
+ 13
+[torch.LongTensor of size 17]
+
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 3
+  6 : 9
+  7 : 11
+  8 : 14
+  9 : 16
+  10 : 8
+  11 : 4
+  12 : 5
+  13 : 17
+  14 : 13
+  15 : 6
+  16 : 12
+}
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 9
+  6 : 3
+  7 : 16
+  8 : 11
+  9 : 8
+}
+{
+  1 : 
+    {
+      1 : 4
+      2 : 1
+      3 : 1
+    }
+  2 : 
+    {
+      1 : 1
+      2 : 1
+      3 : 4
+    }
+  3 : 
+    {
+      1 : 1
+      2 : 2
+      3 : 5
+    }
+  4 : 
+    {
+      1 : 4
+      2 : 2
+      3 : 5
+    }
+  5 : 
+    {
+      1 : 6
+      2 : 3
+      3 : 2
+    }
+  6 : 
+    {
+      1 : 7
+      2 : 3
+      3 : 2
+    }
+  7 : 
+    {
+      1 : 7
+      2 : 3
+      3 : 8
+    }
+  8 : 
+    {
+      1 : 3
+      2 : 3
+      3 : 8
+    }
+  9 : 
+    {
+      1 : 3
+      2 : 4
+      3 : 9
+    }
+  10 : 
+    {
+      1 : 10
+      2 : 2
+      3 : 6
+    }
+  11 : 
+    {
+      1 : 7
+      2 : 5
+      3 : 10
+    }
+  12 : 
+    {
+      1 : 5
+      2 : 3
+      3 : 11
+    }
+  13 : 
+    {
+      1 : 12
+      2 : 4
+      3 : 5
+    }
+  14 : 
+    {
+      1 : 12
+      2 : 3
+      3 : 11
+    }
+  15 : 
+    {
+      1 : 13
+      2 : 4
+      3 : 9
+    }
+  16 : 
+    {
+      1 : 14
+      2 : 5
+      3 : 10
+    }
+  17 : 
+    {
+      1 : 7
+      2 : 5
+      3 : 14
+    }
+  18 : 
+    {
+      1 : 15
+      2 : 5
+      3 : 10
+    }
+  19 : 
+    {
+      1 : 12
+      2 : 5
+      3 : 15
+    }
+  20 : 
+    {
+      1 : 16
+      2 : 5
+      3 : 10
+    }
+  21 : 
+    {
+      1 : 16
+      2 : 5
+      3 : 14
+    }
+}
+{
+  1 : 0.8
+  2 : 0.9
+  3 : 0.87
+  4 : 0.92
+  5 : 0.93
+  6 : 0.54
+  7 : 0.36
+  8 : 0.8
+  9 : 0.7
+  10 : 0.99
+  11 : 1
+  12 : 0.7
+  13 : 0.67
+  14 : 0.54
+  15 : 0.9
+  16 : 0.44
+  17 : 0.76
+  18 : 0.83
+  19 : 0.68
+  20 : 0.73
+  21 : 0.9
+}
+Time: 0.00s	
+	
+Graph: #nodes 17, #edges 22, #edgetypes 5
+  Nodes:
+    Node: 1, fish, in_vocab true, has_neil true, vocab_index 42, neil_ind 13
+    Node: 2, shark, in_vocab true, has_neil true, vocab_index 39, neil_ind 80
+    Node: 3, aquarium, in_vocab true, has_neil true, vocab_index 22, neil_ind 74
+    Node: 4, blue, in_vocab true, has_neil true, vocab_index 83, neil_ind 32
+    Node: 5, water, in_vocab true, has_neil true, vocab_index 65, neil_ind 2
+    Node: 6, beverage, in_vocab true, has_neil false, vocab_index 11, neil_ind -1
+    Node: 7, milk, in_vocab true, has_neil true, vocab_index 40, neil_ind 10
+    Node: 8, food, in_vocab true, has_neil false, vocab_index 59, neil_ind -1
+    Node: 9, plate, in_vocab true, has_neil true, vocab_index 38, neil_ind 24
+    Node: 10, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 9
+    Node: 11, apple, in_vocab true, has_neil true, vocab_index 21, neil_ind 93
+    Node: 12, orange, in_vocab true, has_neil true, vocab_index 72, neil_ind 44
+    Node: 13, fruit, in_vocab true, has_neil false, vocab_index 91, neil_ind -1
+    Node: 14, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 15, grass, in_vocab true, has_neil true, vocab_index 2, neil_ind 8
+    Node: 16, lawn, in_vocab true, has_neil true, vocab_index 49, neil_ind 18
+    Node: 17, house, in_vocab true, has_neil true, vocab_index 100, neil_ind 1
+  Edges:
+    Edge: 1, fish, shark, 0.9, EdgeType: 1, looks_like
+    Edge: 2, shark, fish, 0.8, EdgeType: 1, looks_like
+    Edge: 3, fish, aquarium, 0.87, EdgeType: 2, found_in
+    Edge: 4, shark, aquarium, 0.92, EdgeType: 2, found_in
+    Edge: 5, aquarium, blue, 0.7, EdgeType: 3, has
+    Edge: 6, water, aquarium, 0.67, EdgeType: 4, part_of
+    Edge: 7, water, blue, 0.54, EdgeType: 3, has
+    Edge: 8, water, beverage, 0.68, EdgeType: 5, is
+    Edge: 9, milk, beverage, 0.88, EdgeType: 5, is
+    Edge: 10, beverage, food, 0.83, EdgeType: 5, is
+    Edge: 11, food, plate, 0.99, EdgeType: 2, found_in
+    Edge: 12, apple, food, 1, EdgeType: 5, is
+    Edge: 13, fruit, food, 0.44, EdgeType: 5, is
+    Edge: 14, orange, food, 0.73, EdgeType: 5, is
+    Edge: 15, plate, round_shape, 0.93, EdgeType: 3, has
+    Edge: 16, apple, round_shape, 0.54, EdgeType: 3, has
+    Edge: 17, apple, fruit, 0.76, EdgeType: 5, is
+    Edge: 18, apple, green, 0.36, EdgeType: 3, has
+    Edge: 19, orange, fruit, 0.9, EdgeType: 5, is
+    Edge: 20, grass, green, 0.8, EdgeType: 3, has
+    Edge: 21, grass, lawn, 0.7, EdgeType: 4, part_of
+    Edge: 22, house, lawn, 0.9, EdgeType: 4, part_of
+  EdgeTypes:
+    EdgeType: 1, looks_like
+    EdgeType: 2, found_in
+    EdgeType: 3, has
+    EdgeType: 4, part_of
+    EdgeType: 5, is
+  Neil Detector Nodes: {1 2 3 4 5 7 9 10 11 12 14 15 16 17 }
+  Vocab Nodes: {1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 }
+44444	
+{
+  1 : 
+    {
+      1 : 0.89999997615814
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  2 : 
+    {
+      1 : 0.81000000238419
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  3 : 
+    {
+      1 : 0.75
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+}
+ 1
+ 4
+ 5
+-1
+-1
+-1
+-1
+-1
+ 6
+ 2
+ 7
+-1
+-1
+ 8
+ 3
+ 9
+-1
+[torch.LongTensor of size 17]
+
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 3
+  6 : 9
+  7 : 11
+  8 : 14
+  9 : 16
+}
+{
+  1 : 1
+  2 : 10
+  3 : 15
+}
+{
+  1 : 
+    {
+      id : 2
+      edge : 
+        {
+          1 : 4
+          2 : 1
+          3 : 1
+        }
+    }
+  2 : 
+    {
+      id : 1
+      edge : 
+        {
+          1 : 1
+          2 : 1
+          3 : 4
+        }
+    }
+  3 : 
+    {
+      id : 3
+      edge : 
+        {
+          1 : 1
+          2 : 2
+          3 : 5
+        }
+    }
+  4 : 
+    {
+      id : 4
+      edge : 
+        {
+          1 : 4
+          2 : 2
+          3 : 5
+        }
+    }
+  5 : 
+    {
+      id : 15
+      edge : 
+        {
+          1 : 6
+          2 : 3
+          3 : 2
+        }
+    }
+  6 : 
+    {
+      id : 16
+      edge : 
+        {
+          1 : 7
+          2 : 3
+          3 : 2
+        }
+    }
+  7 : 
+    {
+      id : 18
+      edge : 
+        {
+          1 : 7
+          2 : 3
+          3 : 8
+        }
+    }
+  8 : 
+    {
+      id : 20
+      edge : 
+        {
+          1 : 3
+          2 : 3
+          3 : 8
+        }
+    }
+  9 : 
+    {
+      id : 21
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 9
+        }
+    }
+}
+{
+  22 : 
+    {
+      id : 22
+      edge : 
+        {
+          1 : -1
+          2 : 4
+          3 : 9
+        }
+    }
+  5 : 
+    {
+      id : 5
+      edge : 
+        {
+          1 : 5
+          2 : 3
+          3 : -1
+        }
+    }
+  12 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 7
+          2 : 5
+          3 : -1
+        }
+    }
+  11 : 
+    {
+      id : 11
+      edge : 
+        {
+          1 : -1
+          2 : 2
+          3 : 6
+        }
+    }
+  17 : 
+    {
+      id : 17
+      edge : 
+        {
+          1 : 7
+          2 : 5
+          3 : -1
+        }
+    }
+  6 : 
+    {
+      id : 6
+      edge : 
+        {
+          1 : -1
+          2 : 4
+          3 : 5
+        }
+    }
+}
+  1
+  4
+  5
+ 11
+ 12
+ -1
+ -1
+ 10
+  6
+  2
+  7
+ -1
+ -1
+  8
+  3
+  9
+ -1
+[torch.LongTensor of size 17]
+
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 3
+  6 : 9
+  7 : 11
+  8 : 14
+  9 : 16
+  10 : 8
+  11 : 4
+  12 : 5
+}
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 9
+  6 : 3
+}
+{
+  1 : 
+    {
+      id : 2
+      edge : 
+        {
+          1 : 4
+          2 : 1
+          3 : 1
+        }
+    }
+  2 : 
+    {
+      id : 1
+      edge : 
+        {
+          1 : 1
+          2 : 1
+          3 : 4
+        }
+    }
+  3 : 
+    {
+      id : 3
+      edge : 
+        {
+          1 : 1
+          2 : 2
+          3 : 5
+        }
+    }
+  4 : 
+    {
+      id : 4
+      edge : 
+        {
+          1 : 4
+          2 : 2
+          3 : 5
+        }
+    }
+  5 : 
+    {
+      id : 15
+      edge : 
+        {
+          1 : 6
+          2 : 3
+          3 : 2
+        }
+    }
+  6 : 
+    {
+      id : 16
+      edge : 
+        {
+          1 : 7
+          2 : 3
+          3 : 2
+        }
+    }
+  7 : 
+    {
+      id : 18
+      edge : 
+        {
+          1 : 7
+          2 : 3
+          3 : 8
+        }
+    }
+  8 : 
+    {
+      id : 20
+      edge : 
+        {
+          1 : 3
+          2 : 3
+          3 : 8
+        }
+    }
+  9 : 
+    {
+      id : 21
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 9
+        }
+    }
+  10 : 
+    {
+      id : 11
+      edge : 
+        {
+          1 : 10
+          2 : 2
+          3 : 6
+        }
+    }
+  11 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 7
+          2 : 5
+          3 : 10
+        }
+    }
+  12 : 
+    {
+      id : 5
+      edge : 
+        {
+          1 : 5
+          2 : 3
+          3 : 11
+        }
+    }
+  13 : 
+    {
+      id : 6
+      edge : 
+        {
+          1 : 12
+          2 : 4
+          3 : 5
+        }
+    }
+  14 : 
+    {
+      id : 7
+      edge : 
+        {
+          1 : 12
+          2 : 3
+          3 : 11
+        }
+    }
+}
+{
+  8 : 
+    {
+      id : 8
+      edge : 
+        {
+          1 : 12
+          2 : 5
+          3 : -1
+        }
+    }
+  10 : 
+    {
+      id : 10
+      edge : 
+        {
+          1 : -1
+          2 : 5
+          3 : 10
+        }
+    }
+  12 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 7
+          2 : 5
+          3 : -1
+        }
+    }
+  13 : 
+    {
+      id : 13
+      edge : 
+        {
+          1 : -1
+          2 : 5
+          3 : 10
+        }
+    }
+  14 : 
+    {
+      id : 14
+      edge : 
+        {
+          1 : -1
+          2 : 5
+          3 : 10
+        }
+    }
+  22 : 
+    {
+      id : 22
+      edge : 
+        {
+          1 : -1
+          2 : 4
+          3 : 9
+        }
+    }
+  17 : 
+    {
+      id : 17
+      edge : 
+        {
+          1 : 7
+          2 : 5
+          3 : -1
+        }
+    }
+}
+  1
+  4
+  5
+ 11
+ 12
+ 15
+ -1
+ 10
+  6
+  2
+  7
+ 16
+ 14
+  8
+  3
+  9
+ 13
+[torch.LongTensor of size 17]
+
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 3
+  6 : 9
+  7 : 11
+  8 : 14
+  9 : 16
+  10 : 8
+  11 : 4
+  12 : 5
+  13 : 17
+  14 : 13
+  15 : 6
+  16 : 12
+}
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 9
+  6 : 3
+  7 : 16
+  8 : 11
+  9 : 8
+}
+{
+  1 : 
+    {
+      id : 2
+      edge : 
+        {
+          1 : 4
+          2 : 1
+          3 : 1
+        }
+    }
+  2 : 
+    {
+      id : 1
+      edge : 
+        {
+          1 : 1
+          2 : 1
+          3 : 4
+        }
+    }
+  3 : 
+    {
+      id : 3
+      edge : 
+        {
+          1 : 1
+          2 : 2
+          3 : 5
+        }
+    }
+  4 : 
+    {
+      id : 4
+      edge : 
+        {
+          1 : 4
+          2 : 2
+          3 : 5
+        }
+    }
+  5 : 
+    {
+      id : 15
+      edge : 
+        {
+          1 : 6
+          2 : 3
+          3 : 2
+        }
+    }
+  6 : 
+    {
+      id : 16
+      edge : 
+        {
+          1 : 7
+          2 : 3
+          3 : 2
+        }
+    }
+  7 : 
+    {
+      id : 18
+      edge : 
+        {
+          1 : 7
+          2 : 3
+          3 : 8
+        }
+    }
+  8 : 
+    {
+      id : 20
+      edge : 
+        {
+          1 : 3
+          2 : 3
+          3 : 8
+        }
+    }
+  9 : 
+    {
+      id : 21
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : 9
+        }
+    }
+  10 : 
+    {
+      id : 11
+      edge : 
+        {
+          1 : 10
+          2 : 2
+          3 : 6
+        }
+    }
+  11 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 7
+          2 : 5
+          3 : 10
+        }
+    }
+  12 : 
+    {
+      id : 5
+      edge : 
+        {
+          1 : 5
+          2 : 3
+          3 : 11
+        }
+    }
+  13 : 
+    {
+      id : 6
+      edge : 
+        {
+          1 : 12
+          2 : 4
+          3 : 5
+        }
+    }
+  14 : 
+    {
+      id : 7
+      edge : 
+        {
+          1 : 12
+          2 : 3
+          3 : 11
+        }
+    }
+  15 : 
+    {
+      id : 22
+      edge : 
+        {
+          1 : 13
+          2 : 4
+          3 : 9
+        }
+    }
+  16 : 
+    {
+      id : 13
+      edge : 
+        {
+          1 : 14
+          2 : 5
+          3 : 10
+        }
+    }
+  17 : 
+    {
+      id : 17
+      edge : 
+        {
+          1 : 7
+          2 : 5
+          3 : 14
+        }
+    }
+  18 : 
+    {
+      id : 10
+      edge : 
+        {
+          1 : 15
+          2 : 5
+          3 : 10
+        }
+    }
+  19 : 
+    {
+      id : 8
+      edge : 
+        {
+          1 : 12
+          2 : 5
+          3 : 15
+        }
+    }
+  20 : 
+    {
+      id : 14
+      edge : 
+        {
+          1 : 16
+          2 : 5
+          3 : 10
+        }
+    }
+  21 : 
+    {
+      id : 19
+      edge : 
+        {
+          1 : 16
+          2 : 5
+          3 : 14
+        }
+    }
+}
+{
+  8 : 
+    {
+      id : 8
+      edge : 
+        {
+          1 : 12
+          2 : 5
+          3 : -1
+        }
+    }
+  9 : 
+    {
+      id : 9
+      edge : 
+        {
+          1 : -1
+          2 : 5
+          3 : 15
+        }
+    }
+  12 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 7
+          2 : 5
+          3 : -1
+        }
+    }
+}
+Time: 0.00s	
+	
+Graph: #nodes 17, #edges 19, #edgetypes 4
+  Nodes:
+    Node: 1, fern, in_vocab true, has_neil true, vocab_index 33, neil_ind 4
+    Node: 2, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 3, apple, in_vocab true, has_neil true, vocab_index 22, neil_ind 93
+    Node: 4, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 33
+    Node: 5, tomato, in_vocab true, has_neil true, vocab_index 41, neil_ind 11
+    Node: 6, clock, in_vocab true, has_neil true, vocab_index 3, neil_ind 49
+    Node: 7, wheel, in_vocab true, has_neil true, vocab_index 5, neil_ind 5
+    Node: 8, tire, in_vocab true, has_neil true, vocab_index 93, neil_ind 111
+    Node: 9, black, in_vocab true, has_neil true, vocab_index 8, neil_ind 54
+    Node: 10, car, in_vocab true, has_neil true, vocab_index 74, neil_ind 70
+    Node: 11, new_york, in_vocab false, has_neil true, vocab_index -1, neil_ind 23
+    Node: 12, statue_of_liberty, in_vocab false, has_neil true, vocab_index -1, neil_ind 80
+    Node: 13, raceway, in_vocab true, has_neil true, vocab_index 40, neil_ind 99
+    Node: 14, taxi, in_vocab true, has_neil true, vocab_index 65, neil_ind 20
+    Node: 15, car_dealership, in_vocab false, has_neil true, vocab_index -1, neil_ind 55
+    Node: 16, street, in_vocab true, has_neil true, vocab_index 35, neil_ind 81
+    Node: 17, snowy_weather, in_vocab false, has_neil true, vocab_index -1, neil_ind 100
+  Edges:
+    Edge: 1, fern, green, 0.9, EdgeType: 1, has
+    Edge: 2, apple, green, 0.8, EdgeType: 1, has
+    Edge: 3, tomato, apple, 0.7, EdgeType: 2, looks_like
+    Edge: 4, apple, tomato, 0.5, EdgeType: 2, looks_like
+    Edge: 5, apple, round_shape, 1, EdgeType: 1, has
+    Edge: 6, clock, round_shape, 0.89, EdgeType: 1, has
+    Edge: 7, wheel, round_shape, 0.8, EdgeType: 1, has
+    Edge: 8, tire, round_shape, 0.77, EdgeType: 1, has
+    Edge: 9, wheel, tire, 0.8, EdgeType: 2, looks_like
+    Edge: 10, tire, wheel, 0.98, EdgeType: 2, looks_like
+    Edge: 11, tire, black, 1, EdgeType: 1, has
+    Edge: 12, wheel, car, 0.9, EdgeType: 3, part_of
+    Edge: 13, car, new_york, 0.88, EdgeType: 4, found_in
+    Edge: 14, new_york, statue_of_liberty, 0.58, EdgeType: 1, has
+    Edge: 15, car, raceway, 0.78, EdgeType: 4, found_in
+    Edge: 16, taxi, raceway, 0.86, EdgeType: 4, found_in
+    Edge: 17, car, car_dealership, 0.78, EdgeType: 4, found_in
+    Edge: 18, car, street, 0.78, EdgeType: 4, found_in
+    Edge: 19, street, snowy_weather, 0.88, EdgeType: 1, has
+  EdgeTypes:
+    EdgeType: 1, has
+    EdgeType: 2, looks_like
+    EdgeType: 3, part_of
+    EdgeType: 4, found_in
+  Neil Detector Nodes: {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 }
+  Vocab Nodes: {1 2 3 5 6 7 8 9 10 13 14 16 }
+Graph: #nodes 17, #edges 22, #edgetypes 5
+  Nodes:
+    Node: 1, fish, in_vocab true, has_neil true, vocab_index 42, neil_ind 13
+    Node: 2, shark, in_vocab true, has_neil true, vocab_index 39, neil_ind 80
+    Node: 3, aquarium, in_vocab true, has_neil true, vocab_index 22, neil_ind 74
+    Node: 4, blue, in_vocab true, has_neil true, vocab_index 83, neil_ind 32
+    Node: 5, water, in_vocab true, has_neil true, vocab_index 65, neil_ind 2
+    Node: 6, beverage, in_vocab true, has_neil false, vocab_index 11, neil_ind -1
+    Node: 7, milk, in_vocab true, has_neil true, vocab_index 40, neil_ind 10
+    Node: 8, food, in_vocab true, has_neil false, vocab_index 59, neil_ind -1
+    Node: 9, plate, in_vocab true, has_neil true, vocab_index 38, neil_ind 24
+    Node: 10, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 9
+    Node: 11, apple, in_vocab true, has_neil true, vocab_index 21, neil_ind 93
+    Node: 12, orange, in_vocab true, has_neil true, vocab_index 72, neil_ind 44
+    Node: 13, fruit, in_vocab true, has_neil false, vocab_index 91, neil_ind -1
+    Node: 14, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 15, grass, in_vocab true, has_neil true, vocab_index 2, neil_ind 8
+    Node: 16, lawn, in_vocab true, has_neil true, vocab_index 49, neil_ind 18
+    Node: 17, house, in_vocab true, has_neil true, vocab_index 100, neil_ind 1
+  Edges:
+    Edge: 1, fish, shark, 0.9, EdgeType: 1, looks_like
+    Edge: 2, shark, fish, 0.8, EdgeType: 1, looks_like
+    Edge: 3, fish, aquarium, 0.87, EdgeType: 2, found_in
+    Edge: 4, shark, aquarium, 0.92, EdgeType: 2, found_in
+    Edge: 5, aquarium, blue, 0.7, EdgeType: 3, has
+    Edge: 6, water, aquarium, 0.67, EdgeType: 4, part_of
+    Edge: 7, water, blue, 0.54, EdgeType: 3, has
+    Edge: 8, water, beverage, 0.68, EdgeType: 5, is
+    Edge: 9, milk, beverage, 0.88, EdgeType: 5, is
+    Edge: 10, beverage, food, 0.83, EdgeType: 5, is
+    Edge: 11, food, plate, 0.99, EdgeType: 2, found_in
+    Edge: 12, apple, food, 1, EdgeType: 5, is
+    Edge: 13, fruit, food, 0.44, EdgeType: 5, is
+    Edge: 14, orange, food, 0.73, EdgeType: 5, is
+    Edge: 15, plate, round_shape, 0.93, EdgeType: 3, has
+    Edge: 16, apple, round_shape, 0.54, EdgeType: 3, has
+    Edge: 17, apple, fruit, 0.76, EdgeType: 5, is
+    Edge: 18, apple, green, 0.36, EdgeType: 3, has
+    Edge: 19, orange, fruit, 0.9, EdgeType: 5, is
+    Edge: 20, grass, green, 0.8, EdgeType: 3, has
+    Edge: 21, grass, lawn, 0.7, EdgeType: 4, part_of
+    Edge: 22, house, lawn, 0.9, EdgeType: 4, part_of
+  EdgeTypes:
+    EdgeType: 1, looks_like
+    EdgeType: 2, found_in
+    EdgeType: 3, has
+    EdgeType: 4, part_of
+    EdgeType: 5, is
+  Neil Detector Nodes: {1 2 3 4 5 7 9 10 11 12 14 15 16 17 }
+  Vocab Nodes: {1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 }
+ 0.0000
+ 0.7290
+ 0.8100
+ 0.9000
+ 0.7290
+ 1.0000
+ 0.9000
+ 0.8100
+ 0.7290
+ 1.0000
+ 0.9000
+ 0.8100
+ 0.9000
+ 1.0000
+ 0.9000
+ 0.9000
+ 0.8100
+[torch.FloatTensor of size 17]
+
+ 0.9000
+ 1.0000
+ 0.9000
+ 0.8100
+ 0.8100
+ 0.7290
+ 0.8100
+ 0.7290
+ 0.6561
+ 0.9000
+ 0.8100
+ 0.7290
+ 0.8100
+ 0.7290
+ 0.8100
+ 1.0000
+ 0.9000
+[torch.FloatTensor of size 17]
+
+ 1.0000
+ 1.0000
+ 0.9000
+ 0.8100
+ 0.8100
+ 0.7290
+ 0.6561
+ 0.8100
+ 0.7290
+ 0.8100
+ 0.9000
+ 0.7290
+ 0.8100
+ 1.0000
+ 0.9000
+ 0.9000
+ 1.0000
+[torch.FloatTensor of size 17]
+
+Time: 0.00s	
+	
+Graph: #nodes 17, #edges 19, #edgetypes 4
+  Nodes:
+    Node: 1, fern, in_vocab true, has_neil true, vocab_index 33, neil_ind 4
+    Node: 2, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 3, apple, in_vocab true, has_neil true, vocab_index 22, neil_ind 93
+    Node: 4, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 33
+    Node: 5, tomato, in_vocab true, has_neil true, vocab_index 41, neil_ind 11
+    Node: 6, clock, in_vocab true, has_neil true, vocab_index 3, neil_ind 49
+    Node: 7, wheel, in_vocab true, has_neil true, vocab_index 5, neil_ind 5
+    Node: 8, tire, in_vocab true, has_neil true, vocab_index 93, neil_ind 111
+    Node: 9, black, in_vocab true, has_neil true, vocab_index 8, neil_ind 54
+    Node: 10, car, in_vocab true, has_neil true, vocab_index 74, neil_ind 70
+    Node: 11, new_york, in_vocab false, has_neil true, vocab_index -1, neil_ind 23
+    Node: 12, statue_of_liberty, in_vocab false, has_neil true, vocab_index -1, neil_ind 80
+    Node: 13, raceway, in_vocab true, has_neil true, vocab_index 40, neil_ind 99
+    Node: 14, taxi, in_vocab true, has_neil true, vocab_index 65, neil_ind 20
+    Node: 15, car_dealership, in_vocab false, has_neil true, vocab_index -1, neil_ind 55
+    Node: 16, street, in_vocab true, has_neil true, vocab_index 35, neil_ind 81
+    Node: 17, snowy_weather, in_vocab false, has_neil true, vocab_index -1, neil_ind 100
+  Edges:
+    Edge: 1, fern, green, 0.9, EdgeType: 1, has
+    Edge: 2, apple, green, 0.8, EdgeType: 1, has
+    Edge: 3, tomato, apple, 0.7, EdgeType: 2, looks_like
+    Edge: 4, apple, tomato, 0.5, EdgeType: 2, looks_like
+    Edge: 5, apple, round_shape, 1, EdgeType: 1, has
+    Edge: 6, clock, round_shape, 0.89, EdgeType: 1, has
+    Edge: 7, wheel, round_shape, 0.8, EdgeType: 1, has
+    Edge: 8, tire, round_shape, 0.77, EdgeType: 1, has
+    Edge: 9, wheel, tire, 0.8, EdgeType: 2, looks_like
+    Edge: 10, tire, wheel, 0.98, EdgeType: 2, looks_like
+    Edge: 11, tire, black, 1, EdgeType: 1, has
+    Edge: 12, wheel, car, 0.9, EdgeType: 3, part_of
+    Edge: 13, car, new_york, 0.88, EdgeType: 4, found_in
+    Edge: 14, new_york, statue_of_liberty, 0.58, EdgeType: 1, has
+    Edge: 15, car, raceway, 0.78, EdgeType: 4, found_in
+    Edge: 16, taxi, raceway, 0.86, EdgeType: 4, found_in
+    Edge: 17, car, car_dealership, 0.78, EdgeType: 4, found_in
+    Edge: 18, car, street, 0.78, EdgeType: 4, found_in
+    Edge: 19, street, snowy_weather, 0.88, EdgeType: 1, has
+  EdgeTypes:
+    EdgeType: 1, has
+    EdgeType: 2, looks_like
+    EdgeType: 3, part_of
+    EdgeType: 4, found_in
+  Neil Detector Nodes: {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 }
+  Vocab Nodes: {1 2 3 5 6 7 8 9 10 13 14 16 }
+{
+  1 : 
+    {
+      1 : 
+        {
+          1 : 1
+          2 : 1
+          3 : 2
+        }
+      2 : 
+        {
+          1 : 3
+          2 : 1
+          3 : 2
+        }
+      3 : 
+        {
+          1 : 5
+          2 : 2
+          3 : 3
+        }
+      4 : 
+        {
+          1 : 3
+          2 : 2
+          3 : 5
+        }
+      5 : 
+        {
+          1 : 3
+          2 : 1
+          3 : 4
+        }
+      6 : 
+        {
+          1 : 6
+          2 : 1
+          3 : 4
+        }
+      7 : 
+        {
+          1 : 7
+          2 : 1
+          3 : 4
+        }
+      8 : 
+        {
+          1 : 8
+          2 : 1
+          3 : 4
+        }
+      9 : 
+        {
+          1 : 7
+          2 : 2
+          3 : 8
+        }
+      10 : 
+        {
+          1 : 8
+          2 : 2
+          3 : 7
+        }
+      11 : 
+        {
+          1 : 8
+          2 : 1
+          3 : 9
+        }
+      12 : 
+        {
+          1 : 7
+          2 : 3
+          3 : 10
+        }
+      13 : 
+        {
+          1 : 10
+          2 : 4
+          3 : 11
+        }
+      14 : 
+        {
+          1 : 11
+          2 : 1
+          3 : 12
+        }
+      15 : 
+        {
+          1 : 10
+          2 : 4
+          3 : 13
+        }
+      16 : 
+        {
+          1 : 14
+          2 : 4
+          3 : 13
+        }
+      17 : 
+        {
+          1 : 10
+          2 : 4
+          3 : 15
+        }
+      18 : 
+        {
+          1 : 10
+          2 : 4
+          3 : 16
+        }
+      19 : 
+        {
+          1 : 16
+          2 : 1
+          3 : 17
+        }
+    }
+}
+Time: 0.00s	
+	
+true	
+8	
+true	
+11	
+true	
+21	
+false	
+-1	
+false	
+-1	
+Time: 0.00s	
+	
+Graph: #nodes 17, #edges 22, #edgetypes 5
+  Nodes:
+    Node: 1, fish, in_vocab true, has_neil true, vocab_index 42, neil_ind 13
+    Node: 2, shark, in_vocab true, has_neil true, vocab_index 39, neil_ind 80
+    Node: 3, aquarium, in_vocab true, has_neil true, vocab_index 22, neil_ind 74
+    Node: 4, blue, in_vocab true, has_neil true, vocab_index 83, neil_ind 32
+    Node: 5, water, in_vocab true, has_neil true, vocab_index 65, neil_ind 2
+    Node: 6, beverage, in_vocab true, has_neil false, vocab_index 11, neil_ind -1
+    Node: 7, milk, in_vocab true, has_neil true, vocab_index 40, neil_ind 10
+    Node: 8, food, in_vocab true, has_neil false, vocab_index 59, neil_ind -1
+    Node: 9, plate, in_vocab true, has_neil true, vocab_index 38, neil_ind 24
+    Node: 10, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 9
+    Node: 11, apple, in_vocab true, has_neil true, vocab_index 21, neil_ind 93
+    Node: 12, orange, in_vocab true, has_neil true, vocab_index 72, neil_ind 44
+    Node: 13, fruit, in_vocab true, has_neil false, vocab_index 91, neil_ind -1
+    Node: 14, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 15, grass, in_vocab true, has_neil true, vocab_index 2, neil_ind 8
+    Node: 16, lawn, in_vocab true, has_neil true, vocab_index 49, neil_ind 18
+    Node: 17, house, in_vocab true, has_neil true, vocab_index 100, neil_ind 1
+  Edges:
+    Edge: 1, fish, shark, 0.9, EdgeType: 1, looks_like
+    Edge: 2, shark, fish, 0.8, EdgeType: 1, looks_like
+    Edge: 3, fish, aquarium, 0.87, EdgeType: 2, found_in
+    Edge: 4, shark, aquarium, 0.92, EdgeType: 2, found_in
+    Edge: 5, aquarium, blue, 0.7, EdgeType: 3, has
+    Edge: 6, water, aquarium, 0.67, EdgeType: 4, part_of
+    Edge: 7, water, blue, 0.54, EdgeType: 3, has
+    Edge: 8, water, beverage, 0.68, EdgeType: 5, is
+    Edge: 9, milk, beverage, 0.88, EdgeType: 5, is
+    Edge: 10, beverage, food, 0.83, EdgeType: 5, is
+    Edge: 11, food, plate, 0.99, EdgeType: 2, found_in
+    Edge: 12, apple, food, 1, EdgeType: 5, is
+    Edge: 13, fruit, food, 0.44, EdgeType: 5, is
+    Edge: 14, orange, food, 0.73, EdgeType: 5, is
+    Edge: 15, plate, round_shape, 0.93, EdgeType: 3, has
+    Edge: 16, apple, round_shape, 0.54, EdgeType: 3, has
+    Edge: 17, apple, fruit, 0.76, EdgeType: 5, is
+    Edge: 18, apple, green, 0.36, EdgeType: 3, has
+    Edge: 19, orange, fruit, 0.9, EdgeType: 5, is
+    Edge: 20, grass, green, 0.8, EdgeType: 3, has
+    Edge: 21, grass, lawn, 0.7, EdgeType: 4, part_of
+    Edge: 22, house, lawn, 0.9, EdgeType: 4, part_of
+  EdgeTypes:
+    EdgeType: 1, looks_like
+    EdgeType: 2, found_in
+    EdgeType: 3, has
+    EdgeType: 4, part_of
+    EdgeType: 5, is
+  Neil Detector Nodes: {1 2 3 4 5 7 9 10 11 12 14 15 16 17 }
+  Vocab Nodes: {1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 }
+{
+  1 : 
+    {
+      1 : 0.89999997615814
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  2 : 
+    {
+      1 : 0.81000000238419
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  3 : 
+    {
+      1 : 0.75
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+}
+ 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+ 2
+-1
+-1
+-1
+-1
+ 3
+-1
+-1
+[torch.LongTensor of size 17]
+
+{
+  1 : 1
+  2 : 10
+  3 : 15
+}
+{}
+{}
+{
+  1 : 
+    {
+      edge : 
+        {
+          1 : 1
+          2 : 1
+          3 : -1
+        }
+      id : 1
+    }
+  2 : 
+    {
+      edge : 
+        {
+          1 : -1
+          2 : 1
+          3 : 1
+        }
+      id : 2
+    }
+  3 : 
+    {
+      edge : 
+        {
+          1 : 1
+          2 : 2
+          3 : -1
+        }
+      id : 3
+    }
+  15 : 
+    {
+      edge : 
+        {
+          1 : -1
+          2 : 3
+          3 : 2
+        }
+      id : 15
+    }
+  16 : 
+    {
+      edge : 
+        {
+          1 : -1
+          2 : 3
+          3 : 2
+        }
+      id : 16
+    }
+  20 : 
+    {
+      edge : 
+        {
+          1 : 3
+          2 : 3
+          3 : -1
+        }
+      id : 20
+    }
+  21 : 
+    {
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : -1
+        }
+      id : 21
+    }
+}
+Graph: #nodes 17, #edges 19, #edgetypes 4
+  Nodes:
+    Node: 1, fern, in_vocab true, has_neil true, vocab_index 33, neil_ind 4
+    Node: 2, green, in_vocab true, has_neil true, vocab_index 12, neil_ind 48
+    Node: 3, apple, in_vocab true, has_neil true, vocab_index 22, neil_ind 93
+    Node: 4, round_shape, in_vocab false, has_neil true, vocab_index -1, neil_ind 33
+    Node: 5, tomato, in_vocab true, has_neil true, vocab_index 41, neil_ind 11
+    Node: 6, clock, in_vocab true, has_neil true, vocab_index 3, neil_ind 49
+    Node: 7, wheel, in_vocab true, has_neil true, vocab_index 5, neil_ind 5
+    Node: 8, tire, in_vocab true, has_neil true, vocab_index 93, neil_ind 111
+    Node: 9, black, in_vocab true, has_neil true, vocab_index 8, neil_ind 54
+    Node: 10, car, in_vocab true, has_neil true, vocab_index 74, neil_ind 70
+    Node: 11, new_york, in_vocab false, has_neil true, vocab_index -1, neil_ind 23
+    Node: 12, statue_of_liberty, in_vocab false, has_neil true, vocab_index -1, neil_ind 80
+    Node: 13, raceway, in_vocab true, has_neil true, vocab_index 40, neil_ind 99
+    Node: 14, taxi, in_vocab true, has_neil true, vocab_index 65, neil_ind 20
+    Node: 15, car_dealership, in_vocab false, has_neil true, vocab_index -1, neil_ind 55
+    Node: 16, street, in_vocab true, has_neil true, vocab_index 35, neil_ind 81
+    Node: 17, snowy_weather, in_vocab false, has_neil true, vocab_index -1, neil_ind 100
+  Edges:
+    Edge: 1, fern, green, 0.9, EdgeType: 1, has
+    Edge: 2, apple, green, 0.8, EdgeType: 1, has
+    Edge: 3, tomato, apple, 0.7, EdgeType: 2, looks_like
+    Edge: 4, apple, tomato, 0.5, EdgeType: 2, looks_like
+    Edge: 5, apple, round_shape, 1, EdgeType: 1, has
+    Edge: 6, clock, round_shape, 0.89, EdgeType: 1, has
+    Edge: 7, wheel, round_shape, 0.8, EdgeType: 1, has
+    Edge: 8, tire, round_shape, 0.77, EdgeType: 1, has
+    Edge: 9, wheel, tire, 0.8, EdgeType: 2, looks_like
+    Edge: 10, tire, wheel, 0.98, EdgeType: 2, looks_like
+    Edge: 11, tire, black, 1, EdgeType: 1, has
+    Edge: 12, wheel, car, 0.9, EdgeType: 3, part_of
+    Edge: 13, car, new_york, 0.88, EdgeType: 4, found_in
+    Edge: 14, new_york, statue_of_liberty, 0.58, EdgeType: 1, has
+    Edge: 15, car, raceway, 0.78, EdgeType: 4, found_in
+    Edge: 16, taxi, raceway, 0.86, EdgeType: 4, found_in
+    Edge: 17, car, car_dealership, 0.78, EdgeType: 4, found_in
+    Edge: 18, car, street, 0.78, EdgeType: 4, found_in
+    Edge: 19, street, snowy_weather, 0.88, EdgeType: 1, has
+  EdgeTypes:
+    EdgeType: 1, has
+    EdgeType: 2, looks_like
+    EdgeType: 3, part_of
+    EdgeType: 4, found_in
+  Neil Detector Nodes: {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 }
+  Vocab Nodes: {1 2 3 5 6 7 8 9 10 13 14 16 }
+{
+  1 : 
+    {
+      1 : 0.81000000238419
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  2 : 
+    {
+      1 : 0.99000000953674
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  3 : 
+    {
+      1 : 0.75
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+  4 : 
+    {
+      1 : 0.89999997615814
+      2 : 0
+      3 : 0
+      4 : 0
+      5 : 0
+    }
+}
+-1
+ 2
+ 4
+-1
+ 1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+ 3
+-1
+-1
+[torch.LongTensor of size 17]
+
+{
+  1 : 5
+  2 : 2
+  3 : 15
+  4 : 3
+}
+{}
+{
+  1 : 
+    {
+      edge : 
+        {
+          1 : 1
+          2 : 2
+          3 : 4
+        }
+      id : 3
+    }
+  2 : 
+    {
+      edge : 
+        {
+          1 : 4
+          2 : 1
+          3 : 2
+        }
+      id : 2
+    }
+  3 : 
+    {
+      edge : 
+        {
+          1 : 4
+          2 : 2
+          3 : 1
+        }
+      id : 4
+    }
+}
+{
+  1 : 
+    {
+      edge : 
+        {
+          1 : -1
+          2 : 1
+          3 : 2
+        }
+      id : 1
+    }
+  17 : 
+    {
+      edge : 
+        {
+          1 : -1
+          2 : 4
+          3 : 3
+        }
+      id : 17
+    }
+  5 : 
+    {
+      edge : 
+        {
+          1 : 4
+          2 : 1
+          3 : -1
+        }
+      id : 5
+    }
+}
+ 1
+ 4
+-1
+-1
+-1
+-1
+-1
+-1
+ 5
+ 2
+-1
+-1
+-1
+ 6
+ 3
+-1
+-1
+[torch.LongTensor of size 17]
+
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 9
+  6 : 14
+}
+{}
+{
+  1 : 
+    {
+      id : 2
+      edge : 
+        {
+          1 : 4
+          2 : 1
+          3 : 1
+        }
+    }
+  2 : 
+    {
+      id : 1
+      edge : 
+        {
+          1 : 1
+          2 : 1
+          3 : 4
+        }
+    }
+  3 : 
+    {
+      id : 15
+      edge : 
+        {
+          1 : 5
+          2 : 3
+          3 : 2
+        }
+    }
+  4 : 
+    {
+      id : 20
+      edge : 
+        {
+          1 : 3
+          2 : 3
+          3 : 6
+        }
+    }
+}
+{
+  3 : 
+    {
+      edge : 
+        {
+          1 : 1
+          2 : 2
+          3 : -1
+        }
+      id : 3
+    }
+  4 : 
+    {
+      id : 4
+      edge : 
+        {
+          1 : 4
+          2 : 2
+          3 : -1
+        }
+    }
+  21 : 
+    {
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : -1
+        }
+      id : 21
+    }
+  18 : 
+    {
+      id : 18
+      edge : 
+        {
+          1 : -1
+          2 : 3
+          3 : 6
+        }
+    }
+  11 : 
+    {
+      id : 11
+      edge : 
+        {
+          1 : -1
+          2 : 2
+          3 : 5
+        }
+    }
+  16 : 
+    {
+      edge : 
+        {
+          1 : -1
+          2 : 3
+          3 : 2
+        }
+      id : 16
+    }
+}
+ 1
+ 4
+ 9
+-1
+-1
+-1
+-1
+ 7
+ 5
+ 2
+ 8
+-1
+-1
+ 6
+ 3
+-1
+-1
+[torch.LongTensor of size 17]
+
+{
+  1 : 1
+  2 : 10
+  3 : 15
+  4 : 2
+  5 : 9
+  6 : 14
+  7 : 8
+  8 : 11
+  9 : 3
+}
+{}
+{
+  1 : 
+    {
+      id : 2
+      edge : 
+        {
+          1 : 4
+          2 : 1
+          3 : 1
+        }
+    }
+  2 : 
+    {
+      id : 1
+      edge : 
+        {
+          1 : 1
+          2 : 1
+          3 : 4
+        }
+    }
+  3 : 
+    {
+      id : 15
+      edge : 
+        {
+          1 : 5
+          2 : 3
+          3 : 2
+        }
+    }
+  4 : 
+    {
+      id : 20
+      edge : 
+        {
+          1 : 3
+          2 : 3
+          3 : 6
+        }
+    }
+  5 : 
+    {
+      id : 11
+      edge : 
+        {
+          1 : 7
+          2 : 2
+          3 : 5
+        }
+    }
+  6 : 
+    {
+      id : 12
+      edge : 
+        {
+          1 : 8
+          2 : 5
+          3 : 7
+        }
+    }
+  7 : 
+    {
+      id : 16
+      edge : 
+        {
+          1 : 8
+          2 : 3
+          3 : 2
+        }
+    }
+  8 : 
+    {
+      id : 18
+      edge : 
+        {
+          1 : 8
+          2 : 3
+          3 : 6
+        }
+    }
+  9 : 
+    {
+      id : 3
+      edge : 
+        {
+          1 : 1
+          2 : 2
+          3 : 9
+        }
+    }
+  10 : 
+    {
+      id : 4
+      edge : 
+        {
+          1 : 4
+          2 : 2
+          3 : 9
+        }
+    }
+}
+{
+  5 : 
+    {
+      id : 5
+      edge : 
+        {
+          1 : 9
+          2 : 3
+          3 : -1
+        }
+    }
+  6 : 
+    {
+      id : 6
+      edge : 
+        {
+          1 : -1
+          2 : 4
+          3 : 9
+        }
+    }
+  10 : 
+    {
+      id : 10
+      edge : 
+        {
+          1 : -1
+          2 : 5
+          3 : 7
+        }
+    }
+  13 : 
+    {
+      id : 13
+      edge : 
+        {
+          1 : -1
+          2 : 5
+          3 : 7
+        }
+    }
+  14 : 
+    {
+      id : 14
+      edge : 
+        {
+          1 : -1
+          2 : 5
+          3 : 7
+        }
+    }
+  17 : 
+    {
+      id : 17
+      edge : 
+        {
+          1 : 8
+          2 : 5
+          3 : -1
+        }
+    }
+  21 : 
+    {
+      edge : 
+        {
+          1 : 3
+          2 : 4
+          3 : -1
+        }
+      id : 21
+    }
+}
+Time: 0.00s	
+	
